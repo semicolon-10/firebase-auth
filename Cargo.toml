@@ -1,0 +1,10 @@
+[package]
+name = "firebase-auth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+firebase-auth-sdk = "0.1.0"
+tokio = {version = "1.37.0", features = ["full"]}
+axum = "0.7.5"
+serde = {version = "1.0.201", features = ["derive"]}
